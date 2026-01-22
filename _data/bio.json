@@ -7,7 +7,7 @@
     "phone": "808-333-4444",
     "website": "https://cko-2.github.io", 
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2027.",
-    "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "91-238 Kaukolu Pl.", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "cko-2", "url": "http://github.com/cko-2" },
       { "network": "linkedin", "username": "Chase Obuhanych", "url": "https://www.linkedin.com/in/chase-obuhanych-b1b95319a/" }
