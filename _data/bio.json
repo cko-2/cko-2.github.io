@@ -55,7 +55,18 @@
       "endDate": "Present",
       "summary": "IT Student Assistant at UH",
       "highlights": [
-        "Provides IT support for all UH-affiliated users, namely regarding STAR, Banner, Brightspace, and Duo MFA."
+        "Provided IT support for all UH-affiliated users, namely regarding STAR, Banner, Brightspace, and Duo MFA."
+      ]
+    },
+    {
+      "company": "Sophie's Crepes",
+      "position": "Cashier",
+      "website": "https://sophiescrepessf.com/",
+      "startDate": "2021-12-01",
+      "endDate": "2023-05-28",
+      "summary": "Cashier at Sophie's Crepes",
+      "highlights": [
+        "Worked point of sale, handled up to 50 orders an hour.", "Assisted with making desserts in between orders, demonstrating effective time management." 
       ]
     }
   ]
