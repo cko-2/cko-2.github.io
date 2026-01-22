@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/lean.png
 title: "Probability and Statistics Demonstration"
 date: 2025
 published: true
@@ -9,7 +9,7 @@ labels:
   - Wolfram Mathematica 
   - Probability and Statistics
   - Lean
-summary: "Implemented probability and statistics textbook demonstration."
+summary: "Implemented probability and statistics textbook demonstration program in Lean."
 ---
 During my Elementary Probability and Statistics class, we had an optional project that involved taking one of the textbook programs and writing it in Lean. Since the original program was written in Mathematica, it required a lot of research into both Lean and Mathematica. 
 
