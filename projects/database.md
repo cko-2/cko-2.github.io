@@ -11,15 +11,9 @@ labels:
 summary: "Created a bank database program in C and C++ for an ICS 212 project."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
-
 In the spring 2025 semester, I created a bank database program in C and C++ that stores user records locally within files that are managed through the user interface. The functions include adding, removing, deleting, and finding records within the database. 
 
-Through this project, I learned much about linked lists, debugging, and handling edge cases. Below is one of the functions used within my program.
+Through this project, I gained a deeper understanding of linked lists, debugging, and handling edge cases. Below is one of the functions used within my program.
 
 
 ```cpp
