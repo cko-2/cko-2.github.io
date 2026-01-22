@@ -57,4 +57,4 @@ def simulateRaces (n : Nat) : IO Unit := do
 #eval simulateRaces 10000
 ```
 
-You can view other Lean implementations at my professor's [Github page](https://github.com/bjoernkjoshanssen/hypothesis/tree/main/Hypothesis).
+These implementations were published on my professor's [Github page](https://github.com/bjoernkjoshanssen/hypothesis/tree/main/Hypothesis).
