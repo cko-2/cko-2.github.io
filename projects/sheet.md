@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/lean.png
-title: "Video game Data Collection and Analysis
+title: "Video game Data Collection and Analysis"
 date: 2024
 published: true
 labels:
