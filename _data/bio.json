@@ -35,7 +35,7 @@
       "studyType": "B.S.",
       "startDate": "2021-09-01",
       "endDate": "2023-05-28",
-      "courses": ["Discrete Math", "Intro to Computer Science", "Calculus"]
+      "courses": ["Discrete Math", "Introduction to Computer Science", "Calculus"]
     },
     {
       "institution": "University of Hawaii, Honolulu, HI",
@@ -43,7 +43,7 @@
       "studyType": "B.S.",
       "startDate": "2024-01-18",
       "endDate": "Present",
-      "courses": ["ICS 211", "ICS 212", "MATH 372" ]
+      "courses": ["Introduction to Computer Science II", "Program Structure", "Elementary Probability and Statistics" ]
     }
   ],
   "work": [
