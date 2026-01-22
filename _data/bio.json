@@ -30,11 +30,19 @@
   ],
   "education": [
     {
+      "institution": "University of San Francisco, San Francisco, CA",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "2023-05-28",
+    },
+    {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present"
+      "startDate": "2024-01-18",
+      "endDate": "Present",
+      "courses": ["ICS 211", "ICS 212", "MATH 372" ]
     }
   ],
   "work": [
