@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Probability and Statistics Demonstration"
 date: 2025
-published: false
+published: true
 labels:
   - Wolfram Mathematica 
   - Probability and Statistics
