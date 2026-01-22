@@ -11,7 +11,9 @@ labels:
 summary: "Created a bank database program in C and C++ for an ICS 212 project."
 ---
 
-In the spring 2025 semester, I created a bank database program in C and C++ that stores user records locally within files that are managed through the user interface. The functions include adding, removing, deleting, and finding records within the database. 
+In the spring 2025 semester, I created a bank database program in C and C++ that stores user records locally within files that are managed through the user interface. The functions include adding, removing, deleting, and finding records within the database. The records are read from a file upon starting the program, and written to when adding or deleting a record. 
+
+I worked on this project alone, writing the code for the functions, the user interface, and the makefile. 
 
 Through this project, I gained a deeper understanding of linked lists, debugging, and handling edge cases. Below is one of the functions used within my program.
 
