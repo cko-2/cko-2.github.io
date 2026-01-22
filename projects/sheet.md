@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/sheet.jpg
-title: "Video game Data Collection and Analysis"
+title: "Video Game Data Collection and Analysis"
 date: 2024
 published: true
 labels:
