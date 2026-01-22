@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/db.png
 title: "Database Project"
 date: 2025
 published: true
