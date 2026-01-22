@@ -17,3 +17,4 @@ This project was done alone; however, I often collaborate with others to increas
 
 During this project, I learned to use spreadsheets effectively, demonstrate knowledge of probability and statistics, and organize and analyze data. I also learned to create various functions within my spreadsheet to create a section for analyzing the samples. [Here](https://docs.google.com/spreadsheets/d/1_Hdiy39Fg39gPZJjOvPes3k4wOt-v48H9suKQPep8GU/edit?usp=sharing) is a link to one of my spreadsheets that I had started right after a major rework of the probabilities of certain events occurring. Although it is still a work-in-progress, the sample size is fairly large and can assist others in getting an objective estimate of certain probabilities without having to invest hundreds of hours into collecting their own data. 
 
+<img class="img-fluid" src="../img/sheet2.png">
