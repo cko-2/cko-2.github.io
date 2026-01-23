@@ -1,0 +1,23 @@
+Requirements not met/not functional:
+	all requirements met
+	code is functional and has been tested extensively
+
+Additional features/extra credit:
+	no extra credit attempted
+	additional debug info included
+
+Future enhancements and/or general comments:
+	currently, the only problem that exists is when a user types
+	the address null-terminator(%) and keeps on typing on the same line
+	this does not break the program in any way, but it reprints the menu
+	because it sees the text after the null-terminator as new input
+	this can be fixed in the future, but it is a rare case that does not hinder
+	functionality
+
+	as for general comments, i had a difficult time trying to read c++
+	documentation and got stuck on the part where i needed to use stream objects
+	to take a line from my record.txt and convert it to an int
+
+	i feel like if i knew c++ more, i could improve the readability of the code,
+	as well as decrease memory usage. for the most part, i was using project1 as
+	a pseudo-pseudocode and writing code based off of that
