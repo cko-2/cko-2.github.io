@@ -21,22 +21,14 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python"]
+      "keywords": [ "C", " C++", " Java", " Python"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub"]
+      "keywords": [ "Windows", " Ubuntu", " Git/GitHub"]
     }
   ],
   "education": [
-    {
-      "institution": "University of San Francisco, San Francisco, CA",
-      "area": "Computer Science",
-      "studyType": "B.S.",
-      "startDate": "2021-09-01",
-      "endDate": "2023-05-28",
-      "courses": ["Discrete Math", "Introduction to Computer Science", "Calculus"]
-    },
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Fall, 2027)",
@@ -44,6 +36,14 @@
       "startDate": "2024-01-18",
       "endDate": "Present",
       "courses": ["Introduction to Computer Science II", "Program Structure", "Elementary Probability and Statistics" ]
+    },
+    {
+      "institution": "University of San Francisco, San Francisco, CA",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "2023-05-28",
+      "courses": ["Discrete Math", "Introduction to Computer Science", "Calculus"]
     }
   ],
   "work": [
