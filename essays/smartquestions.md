@@ -46,7 +46,9 @@ test.cpp: In function ‘int main()’:
 test.cpp:5:30: error: ‘nullptr’ is not a constant expression
     5 |   constexpr nil other_zero = zero ;
       |                              ^~~~
-```No such error with clang++. Using void* or auto instead of nil removes the error. Is there something I messed up ?
+```
+```
+No such error with clang++. Using void* or auto instead of nil removes the error. Is there something I messed up ?
 -----------------------------------------------------
 A: This is a confirmed regression in gcc 15.1 i.e gcc is wrong to reject a well-formed program. Note that gcc's error says 'nullptr' is not a constant expression which is also incorrect because nullptr is actually a constant expression.
 
