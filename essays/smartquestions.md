@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart.png">
 
 ## Smart questions, their benefits, and their intricacies
 
@@ -55,9 +55,7 @@ This can be seen from expr.const:
 
 1. Certain contexts require expressions that satisfy additional requirements as detailed in this subclause; other contexts have different semantics depending on whether or not an expression satisfies these requirements. Expressions that satisfy these requirements, assuming that copy elision is not performed, are called constant expressions.
 
-2. A variable or temporary object o is constant-initialized if
-
-either it has an initializer or its default-initialization results in some initialization being performed, and
+2. A variable or temporary object o is constant-initialized if either it has an initializer or its default-initialization results in some initialization being performed, and
 the full-expression of its initialization is a constant expression when interpreted as a constant-expression, except that if o is an object, that full-expression may also invoke constexpr constructors for o and its subobjects even if those objects are of non-literal class types.
 A variable is potentially-constant if it is constexpr or it has reference or non-volatile const-qualified integral or enumeration type.
 A constant-initialized potentially-constant variable V is usable in constant expressions at a point P if V's initializing declaration D is reachable from P and
