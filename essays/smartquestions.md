@@ -31,7 +31,7 @@ Because this question was not relevant to the forum topic, they did not receive 
 Smart questions that are detailed, relevant, and specific are much more likely to see answers that resolve the problem. It should be the requirement for the question to adhere to a specific need, as general questions can always be answered through reading documentation, instructions, or a Google search. [Here](https://stackoverflow.com/questions/79874608/constexpr-renaming-with-type-nullptr-t-nullptr-is-not-a-constant-expression) is an example of a smart question that received a helpful answer. You can view the question in more detail below; the question contained detailed code examples, the compiler settings, things they have attempted, and the error message. Because of this, they were able to receive an answer that you would have difficulty finding through the use of Google or an AI. In the context of software engineering, not every problem is published; many situations are specific enough that they don't have a universal solution. Asking smart questions on forums such as Stack Overflow can benefit you greatly in troubleshooting these problems and becoming a more knowledgeable engineer.
 
 -----------------------------------------------------
-Q: I've nailed down my problem to the following example :
+Question: I've nailed down my problem to the following example :
 ```cpp
 int main()
 {
@@ -50,7 +50,7 @@ test.cpp:5:30: error: ‘nullptr’ is not a constant expression
 No such error with clang++. Using void* or auto instead of nil removes the error. Is there something I messed up?
 
 --------------------
-A: This is a confirmed regression in gcc 15.1 i.e gcc is wrong to reject a well-formed program. Note that gcc's error says 'nullptr' is not a constant expression which is also incorrect because nullptr is actually a constant expression.
+Answer: This is a confirmed regression in gcc 15.1 i.e gcc is wrong to reject a well-formed program. Note that gcc's error says 'nullptr' is not a constant expression which is also incorrect because nullptr is actually a constant expression.
 
 This can be seen from expr.const:
 
