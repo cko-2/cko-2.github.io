@@ -24,4 +24,4 @@ If everyone were to exclusively use HTML and CSS, you would quickly start to not
 
 One of my favorite usages of UI frameworks is on [this website](https://osume.com/) that sells keyboards and keycaps. Creating an aesthetic with a design like this would be difficult in HTML and CSS as this site relies on icons and navbars. Below is an example screenshot of how the site may look on the home page after clicking the dropdown next to "shop".
 
-<img width="1000px" img class="rounded float-start pe-4" src="../img/osume.png">
+<img width="600px" img class="rounded float-start pe-4" src="../img/osume.png">
