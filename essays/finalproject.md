@@ -2,17 +2,15 @@
 layout: essay
 type: essay
 title: "Final Project Proposal"
-date: 2026-11-04
+date: 2026-03-24
 published: true
 labels:
   - Software Engineering
   - Nextjs
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/proj.png">
-
 # Project: UH ITS Email Helper
-Names of proposers: Chase Obuhanych
+##### Names of proposers: Chase Obuhanych
 
 ## Overview
 The Problem: UH ITS Help Desk student employees respond to countless emails every day, however, typing these emails takes a lot of time and effort to ensure accuracy and professionalism. While TeamDynamix has a feature for email templates that allow you to respond to common issues and concerns with a few clicks, these do not encompass most of the common issues that users experience. While you can also create your own templates in TeamDynamix, students are limited to 20 hours of work per week; their personal library of templates will be small, inconvenient to manage, and possibly provide inaccurate solutions.
