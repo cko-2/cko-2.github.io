@@ -3,6 +3,7 @@ layout: essay
 type: essay
 title: "Final Project Proposal"
 date: 2026-11-04
+published: true
 labels:
   - Software Engineering
   - Nextjs
