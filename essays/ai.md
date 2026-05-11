@@ -20,17 +20,17 @@ In modern education, AI is generally frowned upon with few exceptions. Turning i
 
 I started off trying to learn the material purely by hand, but when my grades were on the line and the clock was ticking, I pivoted. You can learn syntax anytime, but you only get one shot at your final grade. Here are the all of the course elements, and my degree of AI usage(Claude Code):
 
-1. Experience WODs: Rarely used AI, only when I had tough problems such as Prisma errors that seemed to persist no matter what I tried.
+1. Experience WODs: Rarely used AI, only when I had tough problems such as Prisma errors that seemed to persist no matter what I tried. AI was very useful at finding these errors and solved them quickly.
 
-2. In-class Practice WODs: Did not use AI except for the Prisma error I was experiencing in the NextJS WODs
+2. In-class Practice WODs: Did not use AI except for the Prisma error I was experiencing in the NextJS WODs.
 
-3. In-class WODs: Started off trying to not use AI, but started using Claude Code in the last few WODs to stay under the time limit. I would have the AI implement large parts of the assignment, as I could learn the material and be able to do it on my own later if needed. I did not want to sacrifice my grade, so these are what caused me to begin to use AI in coding.
+3. In-class WODs: Started off trying to not use AI, but started using Claude Code in the last few WODs to stay under the time limit. I would have the AI implement large parts of the assignment, as I could learn the material and be able to do it on my own later if needed. I did not want to sacrifice my grade, so these are what caused me to begin to use AI in coding. AI was very useful in this case and I had no problems.
 
 4. Essays: Used to reference the structure of my essay and correct grammar, not used to write for me.
 
 5. Final project: Used AI for many of the issue implementations. I did not have much time to work on the project, and there was a lot to be done. I used AI as it was faster, more accurate, and better at detecting security issues within my webapp. By allowing AI to write the code for me, I could focus on authorization, features, and a user management system that could work within our constraints.
 
-6. Learning a concept / tutorial: Used AI occassionally to understand certain concepts within PostgreSQL, Prisma, and Vercel. 
+6. Learning a concept / tutorial: Used AI occassionally to understand certain concepts within PostgreSQL, Prisma, and Vercel. It was able to explain these well.
 
 7. Answering a question in class or in Discord: I did not do this.
 
@@ -47,3 +47,19 @@ I started off trying to learn the material purely by hand, but when my grades we
 13. Quality assurance: I used AI here in the final project to make sure it complied with ESLint and Playwright. If the checks came back as unsuccessful, I had Claude Code pinpoint the error and make changes to resolve the issue.
 
 14. Other uses in ICS 314 not listed: None.
+
+## Impact on Learning and Understanding
+
+My memory of syntax is not great, especially this semester where many new languages and concepts are introduced. Because of AI, I was able to write using the syntax I had somewhat memorized, and Claude would fill in the blanks. I understood the logic, though I let the AI handle the semicolons. While I may not have learned how to flawlessly type a function on paper, I don't see much of an issue with this. I find it similar to being able to do long division: there are not many real-life scenarios where you wouldn't have access to a calculator. Regarding software engineering concepts, AI had enhanced my learning, as I was able to understand difficulty parts that I did not understand; it was like having a private tutor. My main usage of this was PostgreSQL, where the exercises listed in the documentation assumed you had a Linux operating system. I used AI to bridge the gap to make it work on my Windows laptop.
+
+## Practical Applications
+
+I haven't used this for outside projects yet, but it changed how I think about coding. If an employer sees a developer wasting hours on something an AI can do in seconds, it isn't dedication, it's inefficiency. Using AI in this class felt like a trial run for how the real world may actually operate.
+
+## Challenges and Opportunities
+
+I actually did not have a single notable issue with AI. I was using Claude Code, which was known for it's reliability in coding. I was able to add features to my final project that I did not initially believe to be possible within the time contstraints, and I believe I can continue to add more features easily if needed. In more complex and novel tasks, I can see how AI would struggle.
+
+## Comparative Analysis
+
+
