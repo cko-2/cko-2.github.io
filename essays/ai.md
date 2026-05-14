@@ -18,7 +18,7 @@ In modern education, AI is generally frowned upon with few exceptions. Turning i
 
 ## Personal Experience with AI
 
-I started off trying to learn the material purely by hand, but when my grades were on the line and the clock was ticking, I pivoted. You can learn syntax anytime, but you only get one shot at your final grade. Here are all of the course elements, and my degree of AI usage(Claude Code):
+I started off trying to learn the material purely by hand, but when my grades were on the line and the clock was ticking, I pivoted. You can learn syntax anytime, but you only get one shot at your final grade. Here are all of the course elements, and my degree of AI usage (Claude Code):
 
 1. Experience WODs: Rarely used AI, only when I had tough problems such as Prisma errors that seemed to persist no matter what I tried. AI was very useful at finding these errors and solved them quickly.
 
@@ -64,7 +64,7 @@ I actually did not have a single notable issue with AI. I was using Claude Code,
 
 To me, the difference between traditional coding and AI-enhanced coding is like the difference between doing long division on paper versus using a calculator.
 
-Knowing how to do the math by hand is a good foundational skill, and it’s how most of us start. But once you’re in a high-stakes environment where the goal is to build a bridge or manage a budget, you’re going to use the calculator every time. It’s faster and it hardly makes errors. In software engineering, traditional methods help you understand concepts, but AI-enhanced methods are what get you results without confusion due to a missing bracket or a syntax error.
+Knowing how to do the math by hand is a good foundational skill, and it's how most of us start. But once you're in a high-stakes environment where the goal is to build a bridge or manage a budget, you're going to use the calculator every time. It's faster and it hardly makes errors. In software engineering, traditional methods help you understand concepts, but AI-enhanced methods are what get you results without confusion due to a missing bracket or a syntax error.
 
 ## Future Considerations
 

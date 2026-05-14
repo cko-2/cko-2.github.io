@@ -15,17 +15,21 @@
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "Web Development" },
+    { "name": "Cooking" },
     { "name": "Video Games" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", " C++", " Java", " Python"]
+      "name": "Languages",
+      "keywords": [ "C", " C++", " Java", " Python", " JavaScript", " TypeScript"]
+    },
+    {
+      "name": "Frameworks and Tools",
+      "keywords": [ "React", " Next.js", " PostgreSQL", " Prisma", " Bootstrap 5"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", " Ubuntu", " Git/GitHub"]
+      "keywords": [ "Windows", " Linux", " Git/GitHub"]
     }
   ],
   "education": [
@@ -35,7 +39,7 @@
       "studyType": "B.S.",
       "startDate": "2024-01-18",
       "endDate": "Present",
-      "courses": ["Introduction to Computer Science II", "Program Structure", "Elementary Probability and Statistics" ]
+      "courses": ["Introduction to Computer Science II", "Program Structure", "Elementary Probability and Statistics", "Software Engineering"]
     },
     {
       "institution": "University of San Francisco, San Francisco, CA",

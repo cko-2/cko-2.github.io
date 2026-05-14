@@ -4,7 +4,7 @@ type: essay
 title: "UI Frameworks Keep the Internet Unique"
 # All dates must be YYYY-MM-DD format!
 date: 2026-02-25
-published: true
+published: false
 labels:
   - Bootstrap 5
   - Web Development

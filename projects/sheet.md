@@ -4,7 +4,7 @@ type: project
 image: img/sheet.jpg
 title: "Video Game Data Collection and Analysis"
 date: 2024
-published: true
+published: false
 labels:
   - Spreadsheets
   - Data Analysis

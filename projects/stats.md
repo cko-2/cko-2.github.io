@@ -15,7 +15,7 @@ During my Elementary Probability and Statistics class, we had an optional projec
 
 For this project, I worked alone to implement the function, as well as make sure it performed exactly like the original program. Since the program operated mainly on fixed values, the main challenge was adhering to the Lean syntax and transcribing the Mathematica program. 
 
-Because both Lean and Mathematica were new to me, I learned a lot about being able to adapt to new languages quickly and perform the necessary research needed to have both of these programs run as intended. In the future, I can be expected to learn and adapt quickly to languages that I have little to know experience with, using my foundational coding knowledge. Below is the Lean implementation of a horse race probability simulation:
+Because both Lean and Mathematica were new to me, I learned a lot about being able to adapt to new languages quickly and perform the necessary research needed to have both of these programs run as intended. In the future, I can be expected to learn and adapt quickly to languages that I have little to no experience with, using my foundational coding knowledge. Below is the Lean implementation of a horse race probability simulation:
 
 ```cpp
 import Init
