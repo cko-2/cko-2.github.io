@@ -24,6 +24,43 @@ UH ITS Help Desk student employees respond to a high volume of emails every day.
 
 I worked in a team of four using Issue Driven Project Management across three milestones. My main contributions focused on authorization and user management. I implemented the account registration system using a master code for whitelisting, and built out the admin dashboard functionality that allows admins to manage users and templates. I also worked on several template-related features such as tags, search, and categories. I had also populated the website with real templates that were used within TDX, and received feedback from several of the student employees currently working at UH ITS.
 
+## Code Examples
+
+To register, a user needed two things: their UH username had to already be on the admin whitelist, and they had to enter a master code that only the admin controls. I handled the form validation using Yup:
+
+```typescript
+const schema = Yup.object({
+  username: Yup.string().required('UH username is required'),
+  masterCode: Yup.string().required('Master code is required'),
+  password: Yup.string()
+    .required('Password is required')
+    .min(8, 'Must be at least 8 characters')
+    .max(32, 'Must not exceed 32 characters')
+    .matches(/[A-Z]/, 'Must contain at least one uppercase letter')
+    .matches(/[0-9]/, 'Must contain at least one number'),
+  confirmPassword: Yup.string()
+    .required('Please confirm your password')
+    .oneOf([Yup.ref('password')], 'Passwords do not match'),
+});
+```
+
+The admin dashboard pulled all the data it needed in one shot on the server side, and blocked anyone without an admin role before rendering anything:
+
+```typescript
+const AdminPage = async () => {
+  const session = await auth();
+  adminProtectedPage(session as { user: { email: string; id: string; name: string } } | null);
+
+  const [templates, users, masterCode, whitelist] = await Promise.all([
+    prisma.template.findMany({ orderBy: { used: 'desc' } }),
+    prisma.user.findMany({}),
+    getMasterCode().catch(() => ''),
+    getWhitelist().catch(() => []),
+  ]);
+  // ...
+};
+```
+
 ## What I Learned
 
 This project was my first time building a web application as part of a team. Working with Next.js, PostgreSQL, and Prisma together gave me a much better sense of how the frontend, backend, and database interact in a real project. I also learned how quickly scope can grow once a working foundation is in place. Features that seemed like stretch goals at the start of M1 were achievable by M3 because we tracked our effort and knew how much capacity we had left. Managing authorization and user roles also taught me how much planning goes into something that users never directly see.
